@@ -9,7 +9,7 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
+  title: 'Hi, I am',
   name: 'Maitreyee Mhasakar',
   subtitle: 'Geek. Engineer. Coder. Machine Learning Enthusiast.',
   subtitle2: 'Team Darth Vader. Team White Walker.',
@@ -22,10 +22,10 @@ export const aboutData = {
   img1:'AIS_all.JPG',
   img2:'AIS_p.JPG',
   img3:'x.jpg',
-  paragraphOne: 'Hi, This is Maitreyee. Thanks for visitng my website.',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: 'My passion for coding stems from the core fun of logic building. Whether it was Cloud Computing five years ago, Machine Learning today, or Quantum Computing in the future; you will always find me building algorithms to turn ideas into real-world applications.',
+  paragraphTwo: "I have a pending patent for a Pattern Recognition system and two solid internships of automating manual decision-making processes using Machine Learning and Natural Language Processing that reduced human effort from hours/days to minutes. Currently, I'm interning at Pal Inc. where I'm building a Machine Learning model to predict meltdowns in Autistic Spectrum Disorders based on wearable sensor data.",
+  paragraphThree: "I'm on the lookout for an exciting full-time opportunity where I get to challenge myself, utilize my skill set to contribute to path-breaking innovation, and drive projects to success.I look forward to creating my niche in tech, contributing to impactful projects, and making a difference. I'm glad you are here, explore my site to see all that I have to offer.",
+  resume: 'https://drive.google.com/file/d/1GYavjhmYhFobwI0t7rr6KEU4Axsc5rsC/view?usp=sharing', // if no resume, the button will not show up
 };
 
 export const skillsData = [
