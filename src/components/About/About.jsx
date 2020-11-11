@@ -5,9 +5,10 @@ import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
 
+
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+  const { img, img1,img2,img3, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -28,7 +29,7 @@ const About = () => {
         <Title title="About Me" />
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
-            <Fade bottom duration={1000} delay={600} distance="30px">
+            <Fade top duration={1000} delay={600} distance="30px">
               <div className="about-wrapper__image">
                 <AboutImg alt="profile picture" filename={img} />
               </div>
@@ -64,6 +65,35 @@ const About = () => {
             </Fade>
           </Col>
         </Row>
+		<Row className="about-wrapper">
+		<Col md={6} sm={12}>
+		<div>
+		<br />
+            <Fade left duration={1000} delay={600} distance="30px">
+			<div>
+              <div className="about-wrapper__image">
+                <AboutImg alt="profile picture" filename={img1} />
+				&emsp; &emsp;
+				<AboutImg alt="profile picture" filename={img2} />
+              </div>
+			<h2 className="caption">Technical Officer :</h2><a className="caption" href='https://aisutd.org/' target="_blank">Artificial Intelligence Society UTD(2018-2020)</a>
+			</div>
+			</Fade>
+		</div>
+		</Col>
+		<Col md={6} sm={10}>
+		<div>
+            <Fade right duration={1000} delay={600} distance="30px">
+			<div>
+              <div className="about-wrapper__image">
+				<AboutImg alt="profile picture" filename={img3} />
+              </div>
+			<h2 className="caption">Conducted very first 3D printing workshop, Pune 2016</h2>
+			</div>
+			</Fade>
+		</div>
+		</Col>
+		 </Row>
       </Container>
     </section>
   );

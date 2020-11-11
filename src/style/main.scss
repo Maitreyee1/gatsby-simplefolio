@@ -7,12 +7,21 @@
 
 @import './components/buttons';
 
+@import './layout/header';
 @import './layout/footer';
 @import './layout/sections';
 
-@import './sections/about';
-@import './sections/contact';
+
 @import './sections/hero';
+@import './sections/about';
+@import './sections/skills';
+@import './sections/education';
+@import './sections/workex';
 @import './sections/projects';
+@import './sections/contact';
+
+
+
+
 
 @import './vendor/css/font-awesome.min.css';

@@ -6,6 +6,11 @@ import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
 
+function choosedesc(description){
+	if(description && description.length > 1)
+		return <ul className="project-wrapper__text-description">{description && description.map(bulletpoint => (<li key={bulletpoint}>{bulletpoint}</li>))||'Placeholder text'}</ul>;
+	return <p className="project-wrapper__text-description">{description}</p>;}
+
 const Projects = () => {
   const { projects } = useContext(PortfolioContext);
 
@@ -22,17 +27,22 @@ const Projects = () => {
     }
   }, []);
 
+
+
   return (
     <section id="projects">
       <Container>
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
+            const { title, info, info2, label1,label2,topictags, url, repo, img, id } = project;
+			const description = info.match(/\S.*?\."?(?=\s|$)/g);
+			const tech= info2.split(',');
+			const topictaglist= topictags.split(',');
 
             return (
               <Row key={id}>
-                <Col lg={4} sm={12}>
+                <Col lg={12} sm={12}>
                   <Fade
                     left={isDesktop}
                     bottom={isMobile}
@@ -42,30 +52,42 @@ const Projects = () => {
                   >
                     <div className="project-wrapper__text">
                       <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
-                      <div>
-                        <p>
-                          {info ||
-                            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
-                        </p>
-                        <p className="mb-4">{info2 || ''}</p>
+                      <div className="project-wrapper__text-description">
+						<div>
+								{choosedesc(description)}
+						</div>
+						<br/>
+						<div>
+								{tech && tech.map(bulletpoint =>(
+								<label className="Technology" key={bulletpoint}>{bulletpoint}</label>								
+								))||'Placeholder text'}
+						</div>
+						<br/>
+						<div>
+								{topictaglist && topictaglist.map(bulletpoint =>(
+								<label className="Domain" key={bulletpoint}>{bulletpoint}</label>								
+								))||'Placeholder text'}
+						</div>
+						<br/>		
                       </div>
+					  {url && 
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
                         className="cta-btn cta-btn--hero"
                         href={url || '#!'}
                       >
-                        See Live
-                      </a>
+					  See Live
+                      </a>}
 
                       {repo && (
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="cta-btn text-color-main"
+                          className="cta-btn cta-btn--hero"
                           href={repo}
                         >
-                          Source Code
+                        {label2 || 'Source Code'}
                         </a>
                       )}
                     </div>
@@ -100,7 +122,8 @@ const Projects = () => {
                           }}
                         >
                           <div data-tilt className="thumbnail rounded">
-                            <ProjectImg alt={title} filename={img} />
+						  {img && <ProjectImg alt={title} filename={img||''} />}
+                            
                           </div>
                         </Tilt>
                       </a>
