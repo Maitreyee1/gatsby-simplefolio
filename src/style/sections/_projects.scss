@@ -3,34 +3,49 @@
   color: $dark-blue-text;
   margin-top: -15rem;
   padding-top: 15rem;
+  color: black;
+  height: 100%;
+  border-top: 0px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 0%, 100 100%);
+  padding-bottom: 10%;
 
   @include respond(tab-land) {
     margin-top: 0;
     padding-top: 5rem;
   }
-    label{
+  
+  
+    
+	label{
 	color:white;
 	font-weight: 700;
 	font-size: $default-font-size;
-	font-family: "Comic Sans MS";
+	font-family: 'Montserrat', sans-serif;
 
     border-width: 20x;
     border-style: solid;
 	border-radius: 10px;
 	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	padding-right: 20px;
-	margin-right: 50px;
+	margin-right: 15px;
 
 	height: auto;
 	width:auto;	
 	}
 	label.Technology{	
-			background: #8C49CA  ;
-			border-color: #8C49CA  ;
+			
+			background: $primary-color ;
+			border-color: $primary-color ;
+			color:white;
+			
 	}
 	label.Domain{
-			background: green;
-			border-color: green;
+			
+			background: #34495E;
+			border-color: #34495E;
 	}
 	
 
@@ -40,6 +55,7 @@
     @include respond(phone) {
       margin-bottom: 0rem;
     }
+
 
     .row {
       margin-bottom: 8rem;
@@ -63,7 +79,8 @@
       &-title {
         font-weight: bold;
         margin-bottom: 1.8rem;
-        font-size: $mid-font-size;
+        /*font-size: $mid-font-size;*/
+		font-size: 2.9rem;
 
         @include respond(phone) {
           font-size: 2rem;
@@ -72,7 +89,7 @@
 	  	  &-description {
         margin-bottom: 1.8rem;
         /*font-size: $mid-font-size;*/
-		font-size: $mid-font-size;
+		font-size: 2rem;
 
         @include respond(phone) {
           font-size: 2rem;
@@ -80,7 +97,7 @@
       }
 
       & p > a {
-        color: $secondary-color;
+	color: black;
       }
     }
 
@@ -95,6 +112,7 @@
 
       & .thumbnail {
         border: none;
+		font-color: black;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
         transition: all 0.2s ease-out;
         box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);

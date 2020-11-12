@@ -34,8 +34,6 @@ const HeaderBar = () => {
 			<li className="myLi"><Link to="contact" smooth duration={1000}>Contact</Link></li>
 			<li className="myLi"><a href='https://github.com/Maitreyee1' target="_blank"><i className='fa fa-github' /></a></li>
 			<li className="myLi"><a href='https://www.linkedin.com/in/maitreyee-mhasakar/' target="_blank"><i className='fa fa-linkedin' /></a></li>
-			<li className="myLi"><a href='https://maitreyeemhasakar.wordpress.com/' target="_blank"><i className='fa fa-wordpress' /></a></li>
-
 		</ul>
 	</Fade>
     </header>

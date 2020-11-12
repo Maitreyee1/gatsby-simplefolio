@@ -49,6 +49,9 @@ const Footer = () => {
             Jacobo Martínez
           </a>
         </p>
+		<p className="footer__text">
+            Developed in React, Javascript, HTML,Sass,BootStrap4, Gatsby
+        </p>
 
 
         {isEnabled && <GithubButtons />}
