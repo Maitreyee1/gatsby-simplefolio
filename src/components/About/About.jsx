@@ -76,7 +76,7 @@ const About = () => {
 				&emsp; &emsp;
 				<AboutImg alt="profile picture" filename={img2} />
               </div>
-			<h2 className="caption">Technical Officer</h2><a className="caption" href='https://aisutd.org/' target="_blank">Artificial Intelligence Society UTD(2018-2020)</a>
+			<h2 className="caption">Technical Officer</h2><a className="caption" href='https://aisutd.org/' target="_blank"><text className="caption">Artificial Intelligence Society UTD(2018-2020)</text></a>
 			</div>
 			</Fade>
 		</div>

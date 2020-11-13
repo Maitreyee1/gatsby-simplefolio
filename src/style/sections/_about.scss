@@ -15,6 +15,9 @@
   .caption{
   
   font-size: large;
+  text{color:#34495E;
+  text-decoration: underline;}
+  }
   }
 
   @include respond(tab-land) {

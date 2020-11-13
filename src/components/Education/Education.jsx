@@ -47,7 +47,7 @@ const Education = () => {
 				  <p className="education-wrapper__info-head">{university||''}&emsp; {duration|| ''}</p>
 				  <p className="education-wrapper__info-head">{college ||''}</p>
 				  <p className="education-wrapper__info-subhead">{degree||''}</p>
-				  <p className="education-wrapper__info-text">{gpa||''}</p>
+				  <p className="education-wrapper__info-subgead">{gpa||''}</p>
 				  <p className="education-wrapper__info-text">{description||''}</p>
 				  <p className="education-wrapper__info-text">{courses||''}</p>
 			</div>

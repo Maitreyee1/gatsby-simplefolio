@@ -24,6 +24,7 @@
     @include respond(phone) {
       padding-bottom: 5rem;
 	  font-size: $mid-font-size;
+text-align:justify;
     }
 
     &__image {
@@ -78,7 +79,8 @@
 
 
       &-text {
-	  font-size: $mid-font-size;
+	  font-size: $default-font-size;
+	
 
         @include respond(tab-port) {
           font-size: 1.5rem;

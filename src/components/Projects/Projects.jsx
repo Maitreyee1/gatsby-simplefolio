@@ -125,6 +125,9 @@ const Projects = () => {
 						  {img && <ProjectImg alt={title} filename={img||''} />}
                             
                           </div>
+			<br/>
+			<br/>
+			<br/>
                         </Tilt>
                       </a>
                     </div>
