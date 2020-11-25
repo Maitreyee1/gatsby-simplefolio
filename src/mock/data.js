@@ -21,10 +21,9 @@ export const aboutData = {
   img: 'profile.jpg',
   img1:'AIS_all.JPG',
   img2:'AIS_p.JPG',
-  img3:'x.jpg',
   paragraphOne: 'My passion for coding stems from the core fun of logic building. Whether it was Cloud Computing five years ago, Machine Learning today, or Quantum Computing in the future; you will always find me building algorithms to turn ideas into real-world applications.',
-  paragraphTwo: "I have a pending patent for a Pattern Recognition system and two solid internships of automating manual decision-making processes using Machine Learning and Natural Language Processing that reduced human effort from hours/days to minutes. Currently, I'm interning at Pal Inc. where I'm building a Machine Learning model to predict anxiety meltdowns in Autism Spectrum Disorders based on wearable sensor data.",
-  paragraphThree: "I'm on the lookout for an exciting full-time opportunity where I get to challenge myself, utilize my skill set to contribute to path-breaking innovation, and drive projects to success.I look forward to creating my niche in tech, contributing to impactful projects, and making a difference. I'm glad you are here, explore my site to see all that I have to offer.",
+  paragraphTwo: "I have a pending patent for a Pattern Recognition system and two solid internships of automating manual decision-making processes using Machine Learning and Natural Language Processing that reduced human effort from hours/days to minutes. Currently, I'm interning at Pal Inc. where I'm building a Machine Learning model to predict meltdowns in Autism Spectrum Disorders based on wearable sensor data.",
+  paragraphThree: "I'm on the lookout for an exciting full-time opportunity where I get to challenge myself, utilize my skill set to contribute to path-breaking innovation, and drive projects to success. I look forward to creating my niche in tech, contributing to impactful projects, and making a difference. I'm glad you are here, explore my site to see all that I have to offer.",
   resume: 'https://drive.google.com/file/d/1GYavjhmYhFobwI0t7rr6KEU4Axsc5rsC/view?usp=sharing', // if no resume, the button will not show up
 };
 
@@ -41,10 +40,10 @@ export const skillsData = [
 	{id: nanoid(),skill:'PyTorch',value:20},
 	{id: nanoid(),skill:'Microsoft Azure AI',value:40},
 	{id: nanoid(),skill:'MySQL',value:40},
-	{id: nanoid(),skill:'PostgresSQL',value:30},
+	{id: nanoid(),skill:'PostgreSQL',value:30},
 	{id: nanoid(),skill:'MongoDB',value:30},
 	{id: nanoid(),skill:'HTML-CSS',value:60},
-	{id: nanoid(),skill:'Javascript-Ajax,JQuery',value:30},
+	{id: nanoid(),skill:'Javascript-Reactjs',value:30},
 	{id: nanoid(),skill:'PHP',value:40},
 	{id: nanoid(),skill:'JIRA',value:30},
 	{id: nanoid(),skill:'GitHub',value:30},
@@ -55,7 +54,7 @@ export const skillsData = [
 export const educationData = [
 {
   id: nanoid(),
-  ulogo: 'UTD-logo-Copy.jpg',
+  ulogo: 'UTD-logo.jpg',
   clogo: '',
   university: 'University of Texas at Dallas',
   duration:'Aug 2018 - May 2020',
@@ -64,12 +63,11 @@ export const educationData = [
   gpa:'3.4/4.0',
   description: '',
   courses:'Machine learning, Algorithms, Natural language processing, Software evolution and maintenance, Artificial Intelligence, Web Programming Languages',
-resume: '', // if no resume, the button will not show up
 },
 {
   id: nanoid(),
-  ulogo: 'sbpu-logo-Copy.png',
-  clogo: 'Cummins-logo-Copy.jpg',
+  ulogo: 'sbpu-logo.png',
+  clogo: 'Cummins-logo.jpg',
   university: 'Savitribai Phule Pune University',
   duration:'Jul 2013 - Jun 2017',
   college:'MKSSS Cummins College of Engineering for Women',
@@ -77,7 +75,6 @@ resume: '', // if no resume, the button will not show up
   gpa:'74%, First Class Distinction',
   description: '',
   courses:'Data Strcutures, Operating Systems, Database Management, Cloud Computing, Smart Systems',
-resume: '', // if no resume, the button will not show up
 },
 ];
 
@@ -89,7 +86,7 @@ export const workexData = [
     title: 'Data Science Intern',
 	duration:'Aug 2020 - Present',
 	company:'Pal Inc (Gaia Wearables)',
-    info: 'Building Machine Learning model on wearables’ sensor data for predicting early anxiety meltdowns in Autism Spectrum Disorders.',
+    info: 'Building Machine Learning model on wearables’ sensor data for predicting early meltdowns in Autism Spectrum Disorders.',
     info2: 'Python, Scikit-learn, Numpy, Pandas, Matplotlib',
     url: '',
     repo: '', // if no repo, the button will not show up
@@ -111,7 +108,7 @@ export const workexData = [
     title: 'Research Assistant',
     duration:'Jul 2017 - Apr 2018',
     company:'MKSSS Cummins College of Engineering for Women',
-    info: 'Published Patent as one of the three inventors working for Cummins College of Engineering for Women. Designed an innovative handwritten Devanagari character classification algorithm based on a varaint of density-based clustering system that reduced processing time of existing systems from complexity of n^2 to nlogn & optimized space usage complexity from n2 to n with 70% accuracy.',
+    info: 'Published Patent as one of the three inventors working for Cummins College of Engineering for Women. Designed an innovative handwritten Devanagari character classification algorithm based on a variant of density-based clustering system that reduced processing time of existing systems from complexity of n^2 to nlogn & optimized space usage complexity from n2 to n with 70% accuracy.',
     info2: 'Python, C++, OpenCV',
     url: '',
     repo: '', // if no repo, the button will not show up
@@ -123,7 +120,7 @@ export const workexData = [
 	duration:'Aug 2016 - May 2017',
 	company:'Principal Financial Group',
     info: 'Worked in a team of 4 to automate existing manual underwriting process with 80% accuracy. Built an end-to-end system that performed extractive summarization of medical documents using regex and Natural Language Processing, explored and harnessed Machine Learning algorithms for classifying client into appropriate risk class.',
-    info2: 'Tessaract OCR, PostgresSQL, SAS Enterprise Miner, Python, pydocx, NLTK',
+    info2: 'Tessaract OCR, PostgreSQL, SAS Enterprise Miner, Python, pydocx, NLTK',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
@@ -135,7 +132,7 @@ export const projectsData = [
     id: nanoid(),
     img: '',
     title: 'Pending Patent: Handwritten Devanagari Character Recognition System',
-    info: 'My native language is Marathi and we write it using Devanagari script. Very few systems have successfully digitized handwritten documents due to compelxity of its structure and variability. I designed an efficient new character recognition algorithm that identifies characters based on structure and not on size. This will help revive old scriptures and documents, digitize daily local transactions and help bring tech to people who speak and use the native language in the region as well help bring it to the world. Searchable Publishing Number: 201821016520',
+    info: 'My native language is Marathi and we write it using Devanagari script. Very few systems have successfully digitized handwritten documents due to complexity of its structure and variability. I designed an efficient new character recognition algorithm that identifies characters based on structure and not on size. This will help revive old scriptures and documents, digitize daily local transactions and help bring tech to people who speak and use the native language in the region as well help bring it to the world. Searchable Publishing Number: 201821016520',
     info2: 'Python,C++,OpenCV',
 	label1:'',
 	label2:'See Publication',

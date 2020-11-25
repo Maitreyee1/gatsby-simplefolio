@@ -39,7 +39,7 @@ const Skills = () => {
           <Col md={6} sm={12}>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="skills-wrapper__info">
-			  <ProgressBar className="PBar" now={value||''} label={value} />
+			  <ProgressBar className="PBar" now={value||''} label={`${value}%`} />
               </div>
             </Fade>
           </Col>

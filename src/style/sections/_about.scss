@@ -24,16 +24,19 @@
     -webkit-clip-path: none;
     clip-path: none;
   }
+  	.allied_div{
+	margin-left: 200px;
+	margin-top: 50px;
+	
+	}
+	
+	
 
   .about-wrapper {
     @include respond(phone) {
       padding-bottom: 5rem;
     }
 	
-	.PBar{
-	height:20px;
-	width:350px;}
-
     &__image {
       display: flex;
       height: 100%;

@@ -15,7 +15,7 @@ const Footer = () => {
     <footer className="footer navbar-static-bottom">
       <Container>
         <span className="back-to-top">
-          <Link to="hero" smooth duration={1000}>
+          <Link to="header" smooth duration={1000}>
             <i className="fa fa-angle-up fa-2x" aria-hidden="true" />
           </Link>
         </span>
@@ -50,7 +50,7 @@ const Footer = () => {
           </a>
         </p>
 		<p className="footer__text">
-            Developed in React, Javascript, HTML,Sass,BootStrap4, Gatsby
+            Developed in <a href="https://github.com/Maitreyee1/Maitreyee-Mhasakar">React, Javascript, HTML,Sass,BootStrap4, Gatsby</a>
         </p>
 
 

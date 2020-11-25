@@ -27,7 +27,7 @@ const Education = () => {
 	  <div className="education-wrapper">
         <Title title="Education" />
 		{education.map((edu) => {
-			const { id,ulogo,clogo,university,duration,college,degree,gpa,description,courses,resume } = edu;
+			const { id,ulogo,clogo,university,duration,college,degree,gpa,description,courses} = edu;
 		return (
         <Row key={id}>
           <Col md={4} sm={12}>
