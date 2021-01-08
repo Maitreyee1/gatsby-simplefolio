@@ -33,9 +33,9 @@ const Header = () => {
 			
             <br />
 			</h1>
-			<h1 className="hero-subtitle">{subtitle || "I'm the Unknown Developer."}</h1>
+			<h1 className="hero-subtitle">{subtitle || "I'm Maitreyee."}</h1>
 			<br />
-			<h1 className="hero-subtitle">{subtitle2 || "I'm the Unknown Developer."}</h1>
+			<h1 className="hero-subtitle">{subtitle2 || "Glad you are here."}</h1>
           
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
