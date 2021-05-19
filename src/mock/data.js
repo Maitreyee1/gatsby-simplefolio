@@ -22,9 +22,9 @@ export const aboutData = {
   img1:'AIS_all.JPG',
   img2:'AIS_p.JPG',
   paragraphOne: 'My passion for coding stems from the core fun of logic building. Whether it was Cloud Computing five years ago, Machine Learning today, or Quantum Computing in the future; you will always find me building algorithms to turn ideas into real-world applications.',
-  paragraphTwo: "I have a pending patent for a Pattern Recognition system and two solid internships of automating manual decision-making processes using Machine Learning and Natural Language Processing that reduced human effort from hours/days to minutes. Currently, I'm interning at Pal Inc. where I'm building a Machine Learning model to predict meltdowns in Autism Spectrum Disorders based on wearable sensor data.",
+  paragraphTwo: "I have a pending patent for a Pattern Recognition system and two solid internships of automating manual decision-making processes using Machine Learning and Natural Language Processing that reduced human effort from hours/days to minutes. Currently, I'm working at Pal Inc. where I'm building a Machine Learning model to predict meltdowns in Autistic Spectrum Disorders based on wearable sensor data, leading the effort for AWS Data Migration and App integration.",
   paragraphThree: "I'm on the lookout for an exciting full-time opportunity where I get to challenge myself, utilize my skill set to contribute to path-breaking innovation, and drive projects to success. I look forward to creating my niche in tech, contributing to impactful projects, and making a difference. I'm glad you are here, explore my site to see all that I have to offer.",
-  resume: 'https://drive.google.com/file/d/1GYavjhmYhFobwI0t7rr6KEU4Axsc5rsC/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1-sEPJKi_5RqjXEzDiFmZlnrOT8Q_zAad/view?usp=sharing', // if no resume, the button will not show up
 };
 
 export const skillsData = [
@@ -45,6 +45,7 @@ export const skillsData = [
 	{id: nanoid(),skill:'HTML-CSS',value:60},
 	{id: nanoid(),skill:'Javascript-Reactjs',value:30},
 	{id: nanoid(),skill:'PHP',value:40},
+	{id: nanoid(),skill:'OpenSource',value:30},
 	{id: nanoid(),skill:'JIRA',value:30},
 	{id: nanoid(),skill:'GitHub',value:30},
 	{id: nanoid(),skill:'Jupyter,Google Colab',value:70}
@@ -131,7 +132,7 @@ export const projectsData = [
  {
     id: nanoid(),
     img: '',
-    title: 'Pending Patent: Handwritten Devanagari Character Recognition System',
+    title: 'Patent Publication: Handwritten Devanagari Character Recognition System',
     info: 'My native language is Marathi and we write it using Devanagari script. Very few systems have successfully digitized handwritten documents due to complexity of its structure and variability. I designed an efficient new character recognition algorithm that identifies characters based on structure and not on size. This will help revive old scriptures and documents, digitize daily local transactions and help bring tech to people who speak and use the native language in the region as well help bring it to the world. Searchable Publishing Number: 201821016520',
     info2: 'Python,C++,OpenCV',
 	label1:'',
