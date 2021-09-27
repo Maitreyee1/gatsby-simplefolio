@@ -22,9 +22,9 @@ export const aboutData = {
   img1:'AIS_all.JPG',
   img2:'AIS_p.JPG',
   paragraphOne: 'My passion for coding stems from the core fun of logic building. Whether it was Cloud Computing five years ago, Machine Learning today, or Quantum Computing in the future; you will always find me building algorithms to turn ideas into real-world applications.',
-  paragraphTwo: "I have a pending patent for a Pattern Recognition system and two solid internships of automating manual decision-making processes using Machine Learning and Natural Language Processing that reduced human effort from hours/days to minutes. Currently, I'm working at Pal Inc. where I'm building a Machine Learning model to predict meltdowns in Autistic Spectrum Disorders based on wearable sensor data, leading the effort for AWS Data Migration and App integration.",
+  paragraphTwo: "I have a pending patent for a Pattern Recognition system and two solid internships of automating manual decision-making processes using Machine Learning and Natural Language Processing that reduced human effort from hours/days to minutes. At Pal Inc, I built ML models for early meltdown predictions in Austism and spearheaded effort of data migration to AWS.Currently, I'm working at Lumenci Inc. where I help law firms understand technology in Software litigation cases and help software companies in Intellectual Property Monetization.",
   paragraphThree: "I'm on the lookout for an exciting full-time opportunity where I get to challenge myself, utilize my skill set to contribute to path-breaking innovation, and drive projects to success. I look forward to creating my niche in tech, contributing to impactful projects, and making a difference. I'm glad you are here, explore my site to see all that I have to offer.",
-  resume: 'https://drive.google.com/file/d/1UK3FN_lM5ggl4Xo3OjXkmCUCsMC8THWR/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1aE_bQumzdyh0cZsA9jjkrcKJnzk9O3Jt/view?usp=sharing', // if no resume, the button will not show up
 };
 
 export const skillsData = [
