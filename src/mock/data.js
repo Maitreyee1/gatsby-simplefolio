@@ -84,6 +84,16 @@ export const workexData = [
   {
     id: nanoid(),
     img: 'project.jpg',
+    title: 'Associate',
+	duration:'June 2021 - Present',
+	company:'Lumenci Inc',
+    info: 'Work as technical consultant to provide diverse technology related insights to software companies and law firms in Intellectual Property litigation cases.',
+    info2: 'Source Code Reviews, Product Testing, Reverse Engineering',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },{
+    id: nanoid(),
+    img: 'project.jpg',
     title: 'Data Science Intern',
 	duration:'Aug 2020 - Present',
 	company:'Pal Inc (Gaia Wearables)',
