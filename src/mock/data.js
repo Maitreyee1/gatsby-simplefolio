@@ -95,7 +95,7 @@ export const workexData = [
     id: nanoid(),
     img: 'project.jpg',
     title: 'Data Science Intern',
-	duration:'Aug 2020 - Present',
+	duration:'Aug 2020 - May 2021',
 	company:'Pal Inc (Gaia Wearables)',
     info: 'Building Machine Learning model on wearables’ sensor data for predicting early meltdowns in Autism Spectrum Disorders.',
     info2: 'Python, Scikit-learn, Numpy, Pandas, Matplotlib',
